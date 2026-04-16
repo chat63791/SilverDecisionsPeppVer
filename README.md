@@ -4,6 +4,8 @@ SilverDecisions - PeppVer (Rollback Display Fix)
 
 This is a specialized fork of the SilverDecisions project. This version includes a critical "surgical" fix for the Rollback value display logic, specifically optimized for complex business analytics scenarios like the Magnolia Inn case study.
 
+Website link: https://chat63791.github.io/SilverDecisionsPeppVer/
+
 The Problem
 
 In the original version of SilverDecisions, when viewing a decision tree, the "Rollback" labels on nodes often only displayed the isolated node payoff ($d$). For users performing Expected Monetary Value (EMV) analysis, this was misleading as it didn't show the cumulative value (the sum of the local node payoff and the rolled-back values from child branches).
