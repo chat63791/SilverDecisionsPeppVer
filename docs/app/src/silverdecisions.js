@@ -17,6 +17,9 @@ var config = {
     workerUrl: './silverdecisions-job-worker.js',
     logLevel: logLevel,
     treeDesigner:{
+        bracketComputedPayoffs: true,
+        thickenOnlyCertainBranches: true,
+        hideTerminalProbabilityToEnter: true,
     },
     exports: {
       serverUrl: 'https://export.highcharts.com'
