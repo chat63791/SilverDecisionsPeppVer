@@ -7,6 +7,24 @@
             <h2><%= i18n.t("aboutDialog.title")%></h2>
         </div>
         <div class="sd-modal-body">
+            <p>
+                <strong>SilverDecisions PeppVer</strong> (Pepperdine version, 2026)<br/>
+                A fork of SilverDecisions 1.2.1 maintained for decision-tree courses at the Pepperdine Graziadio Business School (Prof. James DiLellio; developed by Terren Chang).
+            </p>
+            <p>
+                It adds four optional settings under <em>Settings &rarr; Options</em>. All are off by default, so until you turn one on, the program behaves exactly like silverdecisions.pl and opens files saved there without change.
+            </p>
+            <ul>
+                <li><strong>Show rollback values on decision and chance nodes</strong>: node values include the payoffs accumulated along the path from the root, the convention used in most decision-analysis textbooks.</li>
+                <li><strong>Show computed payoffs in brackets</strong>: values computed by the program appear as [value], to tell them apart from values you typed.</li>
+                <li><strong>Thicken only branches with 100% probability</strong>: only branches that are certain to be taken (chosen decision branches and 100% chance branches) are drawn thick; other chance branches on the optimal path stay thin.</li>
+                <li><strong>Hide probabilities on terminal nodes</strong>: the probability-to-enter label is not drawn under terminal (triangle) nodes.</li>
+            </ul>
+            <p>
+                Source code and documentation: <a href="https://github.com/chat63791/SilverDecisionsPeppVer" target="_blank">github.com/chat63791/SilverDecisionsPeppVer</a>.
+                The original project is at <a href="https://silverdecisions.pl/" target="_blank">silverdecisions.pl</a>; the text below is the original SilverDecisions About page.
+            </p>
+            <hr/>
             <% if ( ["de", "en", "fr", "it", "pl"].indexOf(lng) !== -1) { %>
                 <%= include('about_'+lng, variables) %>
             <% } else { %>

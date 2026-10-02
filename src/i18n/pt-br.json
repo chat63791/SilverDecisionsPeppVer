@@ -452,6 +452,10 @@
             "hideLabels": "Esconder rótulos",
             "hidePayoffs": "Esconder pesos",
             "hideProbabilities": "Esconder probabilidades",
+            "hideTerminalProbabilityToEnter": "Esconder probabilidades dos nós terminais",
+            "bracketComputedPayoffs": "Mostrar pesos calculados entre colchetes",
+            "thickenOnlyCertainBranches": "Engrossar apenas ramos com probabilidade de 100%",
+            "rollbackPayoffs": "Mostrar pesos acumulados nos nós de decisão e aleatórios",
             "raw": "Bruto",
             "textInterpolation": "Interpolação de texto"
         }

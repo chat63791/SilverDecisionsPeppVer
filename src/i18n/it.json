@@ -453,6 +453,10 @@
             "hideLabels": "Nascondi le etichette",
             "hidePayoffs": "Nascondi saldo",
             "hideProbabilities": "Nascondi le probabilità",
+            "hideTerminalProbabilityToEnter": "Nascondi le probabilità dei nodi terminali",
+            "bracketComputedPayoffs": "Mostra i saldi calcolati tra parentesi quadre",
+            "thickenOnlyCertainBranches": "Ispessisci solo i rami con probabilità del 100%",
+            "rollbackPayoffs": "Mostra i saldi cumulati sui nodi decisione e opportunità",
             "raw": "Non elaborato",
             "textInterpolation": "Interpolazione del testo"
         }

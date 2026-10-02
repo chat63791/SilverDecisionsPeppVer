@@ -453,6 +453,10 @@
             "hideLabels": "Verstecke Beschreibung",
             "hidePayoffs": "Verstecke Auszahlungen",
             "hideProbabilities": "Verstecke Wahrscheinlichkeiten",
+            "hideTerminalProbabilityToEnter": "Verstecke Wahrscheinlichkeiten an Endknoten",
+            "bracketComputedPayoffs": "Berechnete Auszahlungen in Klammern anzeigen",
+            "thickenOnlyCertainBranches": "Nur Zweige mit 100% Wahrscheinlichkeit hervorheben",
+            "rollbackPayoffs": "Kumulierte Auszahlungen an Entscheidungs- und Zufallsknoten anzeigen",
             "raw": "Rau",
             "textInterpolation": "Textinterpolation"
         }

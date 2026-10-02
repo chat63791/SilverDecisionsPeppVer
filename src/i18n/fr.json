@@ -452,6 +452,10 @@
             "hideLabels": "Masquer les étiquettes",
             "hidePayoffs": "Masquer les paiements",
             "hideProbabilities": "Masquer les probabilités",
+            "hideTerminalProbabilityToEnter": "Masquer les probabilités des noeuds terminaux",
+            "bracketComputedPayoffs": "Afficher les paiements calculés entre crochets",
+            "thickenOnlyCertainBranches": "Épaissir uniquement les branches à 100 % de probabilité",
+            "rollbackPayoffs": "Afficher les paiements cumulés sur les noeuds décisionnels et aléatoires",
             "raw": "Brut",
             "textInterpolation": "Interpolation de texte"
         }

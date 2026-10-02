@@ -174,7 +174,16 @@ export class SettingsDialog extends Dialog{
             .addField('hideLabels', 'checkbox', app.treeDesigner, 'config.hideLabels')
             .addField('hidePayoffs', 'checkbox', app.treeDesigner, 'config.hidePayoffs')
             .addField('hideProbabilities', 'checkbox', app.treeDesigner, 'config.hideProbabilities')
+            .addField('hideTerminalProbabilityToEnter', 'checkbox', app.treeDesigner, 'config.hideTerminalProbabilityToEnter')
+            .addField('bracketComputedPayoffs', 'checkbox', app.treeDesigner, 'config.bracketComputedPayoffs')
+            .addField('thickenOnlyCertainBranches', 'checkbox', app.treeDesigner, 'config.thickenOnlyCertainBranches')
             .addField({
+                name: 'rollbackPayoffs',
+                type: 'checkbox',
+                config: app.treeDesigner,
+                path: 'config.rollbackPayoffs',
+                valueUpdateCallback: () => app.onRollbackPayoffsOptionChanged()
+            }).addField({
                 name: 'raw',
                 type: 'checkbox',
                 config: app.treeDesigner,

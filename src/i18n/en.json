@@ -452,6 +452,10 @@
             "hideLabels": "Hide labels",
             "hidePayoffs": "Hide payoffs",
             "hideProbabilities": "Hide probabilities",
+            "hideTerminalProbabilityToEnter": "Hide probabilities on terminal nodes",
+            "bracketComputedPayoffs": "Show computed payoffs in brackets",
+            "thickenOnlyCertainBranches": "Thicken only branches with 100% probability",
+            "rollbackPayoffs": "Show rollback values on decision and chance nodes",
             "raw": "Raw",
             "textInterpolation": "Text interpolation"
         }

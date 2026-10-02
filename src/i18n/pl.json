@@ -452,6 +452,10 @@
             "hideLabels": "Ukryj etykiety",
             "hidePayoffs": "Ukryj wypłaty",
             "hideProbabilities": "Ukryj prawdopodobieństwa",
+            "hideTerminalProbabilityToEnter": "Ukryj prawdopodobieństwa w węzłach końcowych",
+            "bracketComputedPayoffs": "Pokaż obliczone wypłaty w nawiasach",
+            "thickenOnlyCertainBranches": "Pogrubiaj tylko gałęzie o prawdopodobieństwie 100%",
+            "rollbackPayoffs": "Pokaż skumulowane wypłaty w węzłach decyzyjnych i losowych",
             "raw": "Surowy",
             "textInterpolation": "Interpolacja tekstu"
         }

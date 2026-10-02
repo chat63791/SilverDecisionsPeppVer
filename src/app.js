@@ -744,8 +744,13 @@ export class App {
             this.updateView();
         })
     }
+
     onTextInterpolationOptionChanged() {
         this.updateView();
+    }
+    
+    onRollbackPayoffsOptionChanged() {
+        this.recompute(true, false);
     }
 
     isAutoRecalculationEnabled(){
@@ -756,7 +761,7 @@ export class App {
         if(!forceWhenAutoIsDisabled && !this.isAutoRecalculationEnabled()){
             return Promise.resolve();
         }
-
+        this.computationsManager.objectiveRulesManager.setRollbackPayoffs(this.treeDesigner && this.treeDesigner.config.rollbackPayoffs);
         return this.computationsManager.checkValidityAndRecomputeObjective(allRules, evalCode, evalNumeric).then(()=> {
             this.updateValidationMessages();
             AppUtils.dispatchEvent('SilverDecisionsRecomputedEvent', this);
