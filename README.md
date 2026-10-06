@@ -1,5 +1,3 @@
-Editing README
-
 # SilverDecisions PeppVer
 
 A fork of [SilverDecisions](https://github.com/SilverDecisions/SilverDecisions) (version 1.2.1), the free tool for creating and analyzing decision trees. PeppVer adds four optional display settings that make trees easier to read in business analytics courses.
